@@ -18,16 +18,15 @@
 
     <MenuBar>
         <Menu text="File">
-            <MenuItem text="New game" onAction="#clickNewGame"/>
+            <MenuItem text="New chat" onAction="#clickNewChat"/>
             <MenuItem text="Exit" onAction="#clickExit"/>
         </Menu>
-
     </MenuBar>
 
     <TextArea fx:id="historyArea" editable="flase" VBox.vgrow="ALWAYS"/>
     <HBox spacing="20">
         <TextField fx:id="userAnswer" HBox.hgrow="ALWAYS"/>
-        <Button text="Check" defaultButton="true" onAction="#clickCheckButton"/>
+        <Button text="Отправить" defaultButton="true" onAction="#clickCheckButton"/>
 
     </HBox>
 </VBox>
